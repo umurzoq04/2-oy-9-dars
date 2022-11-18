@@ -1,0 +1,81 @@
+ .head__coffe {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 43px;
+     padding-bottom: 83px;
+
+     & img {
+         max-width: 100%;
+     }
+
+     & ul {
+         display: flex;
+         gap: 33px;
+
+         li {
+
+             justify-content: center;
+
+             & a {
+                 color: #83888F;
+                 font-size: 16px;
+                 letter-spacing: 0.92px;
+
+             }
+         }
+     }
+
+     & button {
+         display: none;
+     }
+
+ }
+
+ @media (max-width:760px) {
+     .head__coffe {
+         & ul {
+             display: flex;
+             gap: 20px;
+
+             li {
+                 & a {
+                     font-size: 12px;
+                 }
+             }
+         }
+
+         & button {
+             display: none;
+         }
+     }
+
+ }
+
+ @media (max-width:590px) {
+     .head__coffe {
+         & ul {
+             li {
+                 & a {
+                     display: none;
+                 }
+             }
+         }
+
+         & .btn {
+             background-image: url(../../images/Combined\ Shape.svg);
+             padding: 10px 10px;
+             background-repeat: no-repeat;
+             background-position: center;
+             border: none;
+             background-color: transparent;
+
+         }
+     }
+ }
+
+ 
+
+
+
+
+

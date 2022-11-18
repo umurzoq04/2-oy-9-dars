@@ -1,0 +1,32 @@
+.head__plan{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C343E;
+    padding: 50px 0px;
+    & ul{
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        & a{
+            color: white;
+            opacity: 0.6;
+        }
+    }
+}
+@media (max-width:775px) {
+    .head__nav{
+        & div{
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 50px;
+           
+        }
+        .plan__img img{
+            text-align: center;
+            margin-left: 100px;
+          
+
+        }
+    }
+    
+}
